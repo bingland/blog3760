@@ -6,6 +6,7 @@ theme = "anatole"
 [params]
 description = "Working on the profile picture."
 profilePicture = "images/nh1.jpg"
+displayMode = "light"
 
 [menu]
 
