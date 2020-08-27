@@ -1,20 +1,30 @@
-baseURL = "http://example.org/"
+baseURL = "https://blog3760.netlify.app/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Blog for DGM 3760 | Brayden England"
 theme = "anatole"
+
+[params]
+description = "Working on the profile picture."
+profilePicture = "images/nh1.jpg"
 
 [menu]
 
   [[menu.main]]
-    identifier = "about"
-    name = "about"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/about/"
-    weight = -110
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
 
   [[menu.main]]
-    name = "getting started"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/getting-started/"
-    weight = -100
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+  
