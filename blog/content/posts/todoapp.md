@@ -5,7 +5,7 @@ draft: false
 ---
 ![Todo App Screenshot](/images/todolist.png)
 
-My JavaScript file had two main functions that would be called everytime I wanted to update my todos or any time I wanted to update the categories listed. The HTML document had almost no content besides an h1, I inject everything aelsell in there via JavaScript. I also had some other functions that I didn't need to put in these two main functions, such as functions that readjust all the id's, one that keeps the todos / categories in sync with the localStorage, and others.
+My JavaScript file had two main functions that would be called everytime I wanted to update my todos or any time I wanted to update the categories listed. The HTML document had almost no content besides an h1, I inject everything else in there via JavaScript. I also had some other functions that I didn't need to put in these two main functions, such as functions that readjust all the id's, one that keeps the todos / categories in sync with the localStorage, and others.
 
 I was trying to think of my application almost like a React application; where you have a state, and everytime the state is changed, the todo and category "components" update by running the two main todo and category functions. There are definitely better ways I could have done this, especially in terms of organization. 
 
