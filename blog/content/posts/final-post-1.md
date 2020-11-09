@@ -6,11 +6,11 @@ draft: false
 
 **Project Overview**
 
-My final project is basically a site similar to Yelp, but instead of reviewing restaurants in general, users review the invividual dishes. This would be useful for people are more concerned what restaurant might have the best taco, for example. It would also be useful for finding hidden gems in restaurants that might not have great ratings overall, but an amazing couple of dishes that go under the radar.
+My final project is basically a site similar to Yelp, but instead of reviewing restaurants in general, users review the individual dishes. This would be useful for people are more concerned what restaurant might have the best taco, for example. It would also be useful for finding hidden gems in restaurants that might not have great ratings overall, but an amazing couple of dishes that go under the radar.
 
 **What have you done this week?**
 
-This week I mainly just got mongoose hooked up to the MongoDB server, as well as created all of the Models for my databases. I have four models: Dish, Restaurant, Review, and User. I have my API set up right now so that I only return dishes via a GET request. I also worked on the design of what the app would look like, however didn't translate any of it into CSS.
+This week I mainly just got mongoose hooked up to the MongoDB server, as well as created all of the Models for my databases. I also was able to add some dummy data to my database, as well as create a couple of one-to-many relationships for some models. I have four models: Dish, Restaurant, Review, and User. I have my API set up right now so that I only return dishes via a GET request. I also worked on the design of what the app would look like, however didn't translate any of it into CSS. I made a public folder that has all of my HTML, CSS and JS, and made my site serve that for the static content. 
 
 **What do you plan on doing next week?**
 
