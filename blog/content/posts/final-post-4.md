@@ -5,6 +5,7 @@ draft: false
 ---
 
 **What have you done this week?**
+
 This week wasn't my most productive one because of Thanksgiving break, but I was able to make it so that the dishes of a restaurant display when you select a dish. To do this I had to make a server endpoint to GET a restaurant by its ID. I also hooked this up to the front end so that the server makes two GET requests; one when you search for a dish, and one when you click on the dish. 
 
 **What do you plan on doing next week?**
