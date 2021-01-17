@@ -1,6 +1,6 @@
 baseURL = "https://binglandblog.netlify.app/"
 languageCode = "en-us"
-title = "Blog for DGM 3760 | Brayden England"
+title = "Blog for DGM 3780 | Brayden England"
 theme = "anatole"
 
 [params]
